@@ -1,3 +1,10 @@
+#![no_std]
+
+#[macro_use]
+extern crate sgx_tstd as std;
+
+use std::prelude::v1::*;
+
 use std::{mem,slice};
 use std::convert::{From,Into};
 use std::ops::{BitAnd,BitOr,BitXor};
