@@ -11,4 +11,4 @@ keywords = ["endian","byteorder"]
 license = "MIT"
 
 [dependencies]
-sgx_tstd = "1.0.8"
+sgx_tstd = { rev = "v1.0.8", git = "https://github.com/baidu/rust-sgx-sdk.git" }
